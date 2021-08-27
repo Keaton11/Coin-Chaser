@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1591924747 source:c:\users\keaton\desktop\coin chaser\collision.cpp
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+	"player.h"
+	"chunkMap.h"
+
+1591928809 c:\users\keaton\desktop\coin chaser\header.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"chunkMap.h"
+
+1591929597 c:\users\keaton\desktop\coin chaser\chunkmap.h
+	<stdio.h>
+	<map>
+	<allegro5/allegro.h>
+	"chunk.h"
+
+1592015735 c:\users\keaton\desktop\coin chaser\chunk.h
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	"obstacle.h"
+	"collectible.h"
+	"enemy.h"
+	"SimplexNoise/SimplexNoise.h"
+
+1591928334 c:\users\keaton\desktop\coin chaser\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+
+1591928334 c:\users\keaton\desktop\coin chaser\collectible.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1591928334 c:\users\keaton\desktop\coin chaser\enemy.h
+	<math.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1575420096 c:\users\keaton\desktop\coin chaser\simplexnoise\simplexnoise.h
+	<cstddef>
+
+1591928538 c:\users\keaton\desktop\coin chaser\player.h
+	<stdio.h>
+	<math.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"chunk.h"
+
+1591925091 source:c:\users\keaton\desktop\coin chaser\display.cpp
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<allegro5/allegro.h>
+	"header.h"
+
+1591925172 source:c:\users\keaton\desktop\coin chaser\enemy.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	"header.h"
+	"chunkMap.h"
+
+1591863583 source:c:\users\keaton\desktop\coin chaser\gameovermenu.cpp
+	<stdio.h>
+	<allegro5/allegro.h>
+	"header.h"
+
+1591925581 source:c:\users\keaton\desktop\coin chaser\highscore.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_primitives.h>
+	"header.h"
+
+1591856382 source:c:\users\keaton\desktop\coin chaser\initialize.cpp
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_primitives.h>
+	"header.h"
+
+1591883342 source:c:\users\keaton\desktop\coin chaser\main.cpp
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"header.h"
+
+1591925933 source:c:\users\keaton\desktop\coin chaser\mainmenu.cpp
+	<stdio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"header.h"
+
+1592015686 source:c:\users\keaton\desktop\coin chaser\play.cpp
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	"header.h"
+	"chunk.h"
+	"chunkMap.h"
+	"player.h"
+
+1575420096 source:c:\users\keaton\desktop\coin chaser\simplexnoise\simplexnoise.cpp
+	"SimplexNoise.h"
+	<cstdint>
+
